@@ -1,0 +1,12 @@
+.Despre__page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 10%;
+}
+
+.Youtube__video {
+        display: flex;
+        justify-content: center;
+}

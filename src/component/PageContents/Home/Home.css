@@ -1,0 +1,180 @@
+/* .Homepage__image img{
+    width: 100%;
+    height: 42%;
+    background-position: center;
+    background-size: cover;
+}
+
+.Homepage__text {
+    padding: 0 10%;
+} */
+
+/* .pImg1, .pImg2, .pImg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pImg1 {
+    background-image: url('../../../assets/images/Tosca\ interior.jpg');
+    height: 900px;
+}
+
+.pImg2 {
+    background-image: url('../../../assets/images/Generic_Cafe_photo.jpg');
+    min-height: 400px;
+}
+
+.pImg3 {
+    background-image: url('../../../assets/images/Generic\ coffee.jpg');
+    min-height: 400px;
+}
+
+.pText {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.pText .border {
+    background-color: #111;
+    padding: 18px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 10%;
+} */
+
+.Home__page {
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cafe__section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+.Cafe__section p{
+    flex: 0.4;
+    align-self: center;
+}
+
+.Cafe__section img{
+    flex: 0.6;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.Food__section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.Food__section p {
+    flex: 0.65;
+    align-self: center;
+}
+
+.Food__section img {
+    flex: 0.35;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.Wine__section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.Wine__section p {
+    flex: 0.4;
+    align-self: center;
+}
+
+.Wine__section img {
+    flex: 0.6;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.introImg {
+    animation: fadeIn 4s;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Contact_Us {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.contactUsWrapper {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.contactImg {
+    z-index: 1;
+    opacity: 0.6;
+    width: 100vw;
+}
+
+.contactImgText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 851px) {
+    .Cafe__section {
+        flex-direction: column;
+    }
+    .Food__section {
+        flex-direction: column;
+    }
+    .Wine__section {
+        flex-direction: column;
+    }
+}

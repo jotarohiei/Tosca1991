@@ -1,0 +1,10 @@
+.contact-form-background {
+    background-color: whitesmoke;
+    border: 20px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
